@@ -8,5 +8,6 @@ public class ExOnBits {
         System.out.println(25 >> 30);
         System.out.println(25 ^ 30);
         System.out.println(~5);
+        System.out.println(5 > 2 ? "yes" : "no");
     }
 }
