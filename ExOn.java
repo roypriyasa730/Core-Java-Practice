@@ -9,6 +9,7 @@ public class ExOn {
         System.out.println("Is a less than b? " + res1); // prints true
 
         String res2 = (a + " is less than " + b); // String concatenation
-        System.out.println(res2); // prints "10 is less than 20"
+        System.out.println(res2);
+        // prints "10 is less than 20"
     }
 }
