@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExOnCondition",
+            "request": "launch",
+            "mainClass": "ExOnCondition",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "ExOnBits",
             "request": "launch",
             "mainClass": "ExOnBits",
