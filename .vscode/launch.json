@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExOnSwitch",
+            "request": "launch",
+            "mainClass": "ExOnSwitch",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "ExOnCondition",
             "request": "launch",
             "mainClass": "ExOnCondition",
