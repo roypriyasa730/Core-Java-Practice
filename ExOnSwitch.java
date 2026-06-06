@@ -5,7 +5,7 @@ public class ExOnSwitch {
         Scanner sc = new Scanner(System.in);
         String choice = sc.next();
         switch (choice) {
-            case "Manday": {
+            case "Monday": {
                 System.out.println("Today is Monday");
                 break;
             }
