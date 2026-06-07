@@ -9,5 +9,8 @@ public class ExOnBits {
         System.out.println(25 ^ 30); // bitwise XOR
         System.out.println(~5); // bitwise NOT
         System.out.println(5 > 2 ? "yes" : "no"); // ternary operator
+        System.out.println(5 > 2 ? 5 : 2); // ternary operator with numbers
+        System.out.println(5 > 2 ? "greater" : "lesser"); // ternary operator with strings
+        System.out.println(5 > 2 ? 5 : 2); // ternary operator with numbers
     }
 }
