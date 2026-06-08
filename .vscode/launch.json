@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExOnReverseTable",
+            "request": "launch",
+            "mainClass": "ExOnReverseTable",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "ExOnTable10",
+            "request": "launch",
+            "mainClass": "ExOnTable10",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "ExOnTable",
+            "request": "launch",
+            "mainClass": "ExOnTable",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "ExOnztable",
+            "request": "launch",
+            "mainClass": "ExOnztable",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "ExOnOddNumber",
+            "request": "launch",
+            "mainClass": "ExOnOddNumber",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "ExOnMultiple",
+            "request": "launch",
+            "mainClass": "ExOnMultiple",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "ExOnDivisible",
+            "request": "launch",
+            "mainClass": "ExOnDivisible",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "ExOnFor",
+            "request": "launch",
+            "mainClass": "ExOnFor",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "ExOnEvenNumbar",
+            "request": "launch",
+            "mainClass": "ExOnEvenNumbar",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "ExOnSwitch",
             "request": "launch",
             "mainClass": "ExOnSwitch",
