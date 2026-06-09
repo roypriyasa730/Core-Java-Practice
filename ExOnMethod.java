@@ -11,7 +11,7 @@ public class ExOnMethod {
         System.out.println(a - b);
     }
 
-    public static void multi() {
+    public static void mul() {
         int a = 100;
         int b = 20;
         System.out.println(a - b);
@@ -20,7 +20,7 @@ public class ExOnMethod {
     public static void main(String[] args) {
         add();
         sub();
-        multi();
+        mul();
 
     }
 

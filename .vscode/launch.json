@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExOnMethod",
+            "request": "launch",
+            "mainClass": "ExOnMethod",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "ExOnReverseTable",
             "request": "launch",
             "mainClass": "ExOnReverseTable",
