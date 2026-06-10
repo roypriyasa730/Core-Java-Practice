@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExpMethod",
+            "request": "launch",
+            "mainClass": "ExpMethod",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "Exp",
+            "request": "launch",
+            "mainClass": "Exp",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "ExOnParameterized",
             "request": "launch",
             "mainClass": "ExOnParameterized",
