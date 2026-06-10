@@ -32,7 +32,7 @@ public class ExOnSwitch {
             }
             case "Sunday": {
                 System.out.println("Today is Sunday");
-                break;
+                break;0
             }
             default: {
                 System.out.println("Invalid day");
