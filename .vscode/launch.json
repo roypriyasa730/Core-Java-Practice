@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoMethod",
+            "request": "launch",
+            "mainClass": "DemoMethod",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "ExpOnMethod",
             "request": "launch",
             "mainClass": "ExpOnMethod",
