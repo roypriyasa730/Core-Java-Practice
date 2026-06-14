@@ -5,7 +5,7 @@ public class ExOnLogical {
         System.out.println(10 == 10); // true
     }
 
-    public static void testLogicalOperators() {
+    public static void testLogicalOperators2() {
         boolean a = true;
         boolean b = false;
 
