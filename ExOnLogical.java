@@ -17,6 +17,7 @@ public class ExOnLogical {
     public static void testLogicalOperators() {
         boolean a = true;
         boolean b = false;
+        System.out.println("hi");
 
         System.out.println("a && b: " + (a && b)); // false
         System.out.println("a || b: " + (a || b)); // true
