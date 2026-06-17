@@ -3,21 +3,21 @@ public class Book {
     String author;
     double price;
 
+    public Book() {
+        System.out.println("Constructor called");
+    }
+
     public void display() {
         System.out.println("Book Name: " + name);
         System.out.println("Author: " + author);
         System.out.println("Price: $" + price);
     }
+}
 
-    public Book() {
-        System.out.println("Constructor called");
+class BookDriver {
+    public static void main(String[] args) {
+
+        Book book = new Book();
+        book.display();
     }
-
-    public class BookDriver {
-        public static void main(String[] args) {
-            Book book = new Book();
-            book.display();
-        }
-    }
-
 }
