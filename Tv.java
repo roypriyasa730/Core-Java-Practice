@@ -24,8 +24,6 @@ public class Tv {
         System.out.println(tv1.inches);
         System.out.println(tv1.displayType);
 
-        System.out.println();
-
         System.out.println(tv2.brand);
         System.out.println(tv2.price);
         System.out.println(tv2.inches);
