@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tv",
+            "request": "launch",
+            "mainClass": "Tv",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "Mobile",
             "request": "launch",
             "mainClass": "Mobile",
