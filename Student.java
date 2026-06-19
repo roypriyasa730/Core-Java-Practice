@@ -20,5 +20,11 @@ public class Student {
         Student s1 = new Student();
         s1.assignvalues("priyasa", 121, 21);
         s1.display();
+
+        System.out.println();
+
+        Student s2 = new Student();
+        s2.assignvalues("priya", 122, 22);
+        s2.display();
     }
 }
