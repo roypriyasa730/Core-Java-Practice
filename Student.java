@@ -3,20 +3,22 @@ public class Student {
     int id;
     int age;
 
+    // this method work to assign the values to non staic variable
+    public void assignvalues(String n, int i, int a) {
+        name = n;
+        id = i;
+        age = a;
+    }
+
+    public void display() {
+        System.out.println(name);
+        System.out.println(id);
+        System.out.println(age);
+    }
+
     public static void main(String[] args) {
-        final Student s1 = new Student();
-        s1.name = "Priyasa";
-        s1.id = 143;
-        s1.age = 24;
-
-        Student s2 = new Student();
-        s2.name = "Priya";
-        s2.id = 153;
-        s2.age = 25;
-
-        System.err.println(s1.name);
-        s1.name = "Priyasa Roy";
-        System.err.println(s1.name);
-        System.err.println(s2.name);
+        Student s1 = new Student();
+        s1.assignvalues("priyasa", 121, 21);
+        s1.display();
     }
 }
