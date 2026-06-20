@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExOnShirt",
+            "request": "launch",
+            "mainClass": "ExOnShirt",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "Tv",
             "request": "launch",
             "mainClass": "Tv",
