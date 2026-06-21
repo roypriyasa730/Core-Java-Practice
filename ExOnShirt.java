@@ -14,10 +14,10 @@ public class ExOnShirt {
 
     public void displayShirtDetails() {
         if (price > 2000)
-            System.out.println(brand);
-        System.out.println(color);
-        System.out.println(size);
-        System.out.println(price);
+            System.out.println(this.brand);
+        System.out.println(this.color);
+        System.out.println(this.size);
+        System.out.println(this.price);
     }
 
     public static void main(String[] args) {
