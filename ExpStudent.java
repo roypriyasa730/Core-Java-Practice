@@ -12,6 +12,7 @@ public class ExpStudent {
     }
 
     ExpStudent(String name, int age, int id, String emailid, double perc) {
+        // Constructor with all parameters
         this.name = name;
         this.age = age;
         this.id = id;
@@ -19,6 +20,13 @@ public class ExpStudent {
         this.perc = perc;
     }
 
+    ExpStudent(String name, int age, int id) {
+        this.name = name;
+        this.age = age;
+        this.id = id;
+    }
+
+    //
     public void displayStudentDetails() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
@@ -28,13 +36,14 @@ public class ExpStudent {
     }
 
     public static void main(String[] args) {
+        //
         ExpStudent student1 = new ExpStudent("John", 20);
         student1.displayStudentDetails();
 
         ExpStudent student2 = new ExpStudent("Alice", 22, 101, "alice@example.com", 85.5);
         student2.displayStudentDetails();
-
-        ExpStudent student3 = new ExpStudent("Bob", 21, 102, "bob@example.com", 90.0);
+        ExpStudent student3 = new ExpStudent("Bob", 21, 102);
         student3.displayStudentDetails();
+
     }
 }
