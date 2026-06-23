@@ -20,11 +20,11 @@ public class ExpStudent {
     }
 
     public void displayStudentDetails() {
-        System.out.println("Name: " + this.name);
-        System.out.println("Age: " + this.age);
-        System.out.println("ID: " + this.id);
-        System.out.println("Email ID: " + this.emailid);
-        System.out.println("Percentage: " + this.perc);
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("ID: " + id);
+        System.out.println("Email ID: " + emailid);
+        System.out.println("Percentage: " + perc);
     }
 
     public static void main(String[] args) {
