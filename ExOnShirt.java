@@ -14,6 +14,7 @@ public class ExOnShirt {
 
     public void displayShirtDetails() {
         if (price > 2000)
+
             System.out.println(this.brand);
         System.out.println(this.color);
         System.out.println(this.size);
