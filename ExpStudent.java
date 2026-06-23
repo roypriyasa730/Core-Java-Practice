@@ -5,7 +5,7 @@ public class ExpStudent {
     String emailid;
     double perc;
 
-    ExpStudent(String name, int age) {
+    ExpStudent(String name, int age) { // Constructor with name and age parameters
         this.name = name;
         this.age = age;
 
