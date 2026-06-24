@@ -35,7 +35,7 @@ public class ExpStudent {
 
     public static void main(String[] args) {
         //
-        ExpStudent student1 = new ExpStudent("John", 20);
+        ExpStudent student1 = new ExpStudent("gadhu", 20, 121, "gadhu121@", 5.6);
         student1.displayStudentDetails();
 
     }
