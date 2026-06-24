@@ -2,7 +2,7 @@ public class ExpStudent {
     String name;
     int age;
     int id;
-    String emailid;
+    String emailId;
     double perc;
 
     ExpStudent(String name, int age) { // Constructor with name and age parameters
@@ -11,19 +11,17 @@ public class ExpStudent {
 
     }
 
-    ExpStudent(String name, int age, int id, String emailid, double perc) {
-        // Constructor with all parameters
-        this.name = name;
-        this.age = age;
+    ExpStudent(String name, int age, int id, String emailId) {
+
+        this(name, age);
         this.id = id;
-        this.emailid = emailid;
-        this.perc = perc;
+        this.emailId = emailId;
     }
 
-    ExpStudent(String name, int age, int id) {
-        this.name = name;
-        this.age = age;
-        this.id = id;
+    ExpStudent(String name, int age, int id, String emailId, double perc) {
+        // Constructor with all parameters
+        this(name, age, id, emailId);
+        this.perc = perc;
     }
 
     //
@@ -31,7 +29,7 @@ public class ExpStudent {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("ID: " + id);
-        System.out.println("Email ID: " + emailid);
+        System.out.println("Email ID: " + emailId);
         System.out.println("Percentage: " + perc);
     }
 
@@ -39,11 +37,6 @@ public class ExpStudent {
         //
         ExpStudent student1 = new ExpStudent("John", 20);
         student1.displayStudentDetails();
-
-        ExpStudent student2 = new ExpStudent("Alice", 22, 101, "alice@example.com", 85.5);
-        student2.displayStudentDetails();
-        ExpStudent student3 = new ExpStudent("Bob", 21, 102);
-        student3.displayStudentDetails();
 
     }
 }
