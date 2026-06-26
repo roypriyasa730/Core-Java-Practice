@@ -7,6 +7,7 @@ public class Random {
         System.out.println(x + y + p);
     }
 
-public void m1(){
-    System.out.println("hi im m1 from Random class");
+    public void m1() {
+        System.out.println("hi im m1 from Random class");
+    }
 }
