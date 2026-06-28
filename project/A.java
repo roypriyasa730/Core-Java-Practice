@@ -6,6 +6,10 @@ public class A {
 
     }
 
+    A(String s) {
+        System.out.println(s);
+    }
+
     A(int a) {
         this();
         System.out.println(a++);
