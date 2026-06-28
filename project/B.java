@@ -2,6 +2,7 @@ package project;
 
 class B {
     String s = "students";
+    String t = "hello";
 
     B() {
         this("bye");
