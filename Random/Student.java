@@ -11,7 +11,7 @@ public class Student extends College {
         this.sId = sId;
         this.sAge = sAge;
     }
-    1q11Q
+
     public void displayStudentDetails() {
         System.out.println("College Name: " + cName);
         System.out.println("College Code: " + cCode);
