@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Driver",
             "request": "launch",
+            "mainClass": "Random.Driver",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "driver.Driver",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
             "mainClass": "project.Driver",
             "projectName": "java_56eca946"
         },
