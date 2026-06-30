@@ -2,12 +2,7 @@ package driver;
 
 class ExA {
     public ExA() {
-        System.out.println("im non para cons of a class");
+        int age = 5;
 
-    }
-
-    private ExA(String s) {
-        this();
-        System.out.println("helo");
     }
 }
