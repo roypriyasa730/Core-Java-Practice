@@ -1,15 +1,15 @@
 package driver;
 
 public class ExB extends ExA {
+    int age = 22;
 
-    public ExB() {
-        super();
-        System.out.println("im non para conts of class b");
+    public void displayAge() {
+        int a = 8;
+        System.out.println(a);
+        System.out.println(a);
+        System.out.println(this.a);
 
+        System.out.println(super.age);
     }
 
-    private ExB(int a) {
-        super();
-        System.out.println("im int para cont of b class");
-    }
 }
