@@ -7,9 +7,8 @@ public class ExB extends ExA {
         int a = 8;
         System.out.println(a);
         System.out.println(a);
-        System.out.println(this.a);
+        System.out.println(age);
 
-        System.out.println(super.age);
     }
 
 }
