@@ -15,6 +15,7 @@ public class c1 {
     public void display() {
         System.out.println(a);
         System.out.println(b);
+        System.err.println(k);
     }
 
 }
