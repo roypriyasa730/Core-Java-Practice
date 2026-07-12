@@ -10,8 +10,6 @@ public class c1 {
         System.out.println(a++ + b);
     }
 
-    c3 obj = new c3();
-
     public void display() {
         System.out.println(a);
         System.out.println(b);
