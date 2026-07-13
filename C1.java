@@ -1,4 +1,3 @@
-
 public class C1 {
     int a = 3;
     int b;
@@ -12,6 +11,6 @@ public class C1 {
     public void display() {
         System.out.println(a);
         System.out.println(b);
-        System.err.println(k);
+
     }
 }
