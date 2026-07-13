@@ -1,5 +1,5 @@
 
-public class C1 { // Changed 'c1' to 'C1' to follow Java naming conventions
+public class C1 {
     int a = 3;
     int b;
     static int k = 5;
