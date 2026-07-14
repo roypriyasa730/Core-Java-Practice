@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreeMaximum",
+            "request": "launch",
+            "mainClass": "JavaProgramming.ThreeMaximum",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "LeapYear",
             "request": "launch",
             "mainClass": "JavaProgramming.LeapYear",
