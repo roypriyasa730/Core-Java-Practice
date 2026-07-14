@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LeapYear",
+            "request": "launch",
+            "mainClass": "JavaProgramming.LeapYear",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "Maximum",
+            "request": "launch",
+            "mainClass": "Maximum",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "Number",
+            "request": "launch",
+            "mainClass": "Number",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
+            "name": "Even",
+            "request": "launch",
+            "mainClass": "Even",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "Laptop",
             "request": "launch",
             "mainClass": "Laptop",
