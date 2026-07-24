@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VotingApp",
+            "request": "launch",
+            "mainClass": "Exception.VotingApp",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "ArrayEven",
             "request": "launch",
             "mainClass": "ArrayEven",
