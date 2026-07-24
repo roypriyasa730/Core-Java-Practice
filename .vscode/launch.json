@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Amstrong",
+            "request": "launch",
+            "mainClass": "Amstrong",
+            "projectName": "java_56eca946"
+        },
+        {
+            "type": "java",
             "name": "VotingApp",
             "request": "launch",
             "mainClass": "Exception.VotingApp",
