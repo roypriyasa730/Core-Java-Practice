@@ -1,5 +1,7 @@
+// This program checks if a number is an Armstrong number or not
 class Amstrong {
     public static void main(String[] args) {
+        // initialize the number to be checked
         int num = 153;
         int count = 0, temp = num;
         int sum = 0;
