@@ -6,4 +6,8 @@ public class ExOnSatic {
         System.out.println("a: " + a);
         System.out.println("b: " + b);
     }
+
+    public static void main(String[] args) {
+        display();
+    }
 }
