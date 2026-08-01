@@ -5,5 +5,9 @@ public class c2 {
         c1 cc = new c1();
         System.out.println(cc.k);
         cc.display();
+        cc.setValues(10, 20);
+        System.out.println(cc.k);
+        cc.display();
+
     }
 }
