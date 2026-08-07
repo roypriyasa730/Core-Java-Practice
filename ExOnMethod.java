@@ -14,7 +14,7 @@ public class ExOnMethod {
     public static void mul() {
         int a = 100;
         int b = 20;
-        System.out.println(a - b);
+        System.out.println(a * b);
     }
 
     public static void div() {
