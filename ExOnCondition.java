@@ -8,5 +8,6 @@ public class ExOnCondition {
         } else if (num == 0) {
 
         }
+        System.out.println("End of program");
     }
 }
