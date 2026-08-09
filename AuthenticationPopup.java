@@ -1,16 +1,24 @@
 
 import java.net.URI;
 import java.util.function.Predicate;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AuthenticationPopup {
 
     public static void main(String[] args) {
 
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://the-internet.herokuapp.com/basic_auth");
+        Predicate<String> isValidUrl = url -> {
+            try {
+                URI uri = new URI(url);
+                return uri.getScheme() != null && (uri.getScheme().equals("http") || uri.getScheme().equals("https"));
+            } catch (Exception e) {
+                return false;
+            }
+        };
 
-        driver.quit();
+        String url1 = "https://www.example.com";
+        String url2 = "ftp://www.example.com";
+
+        System.out.println("Is valid URL 1: " + isValidUrl.test(url1)); // true
+        System.out.println("Is valid URL 2: " + isValidUrl.test(url2)); // false
     }
 }
