@@ -17,6 +17,12 @@ public class ExOnMethod {
         System.out.println(a * b);
     }
 
+    public static void mod() {
+        int a = 100;
+        int b = 20;
+        System.out.println(a % b);
+    }
+
     public static void div() {
         int a = 100;
         int b = 20;
@@ -27,6 +33,7 @@ public class ExOnMethod {
         add();
         sub();
         mul();
+        mod();
         div();
 
     }
