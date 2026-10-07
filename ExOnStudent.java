@@ -27,4 +27,10 @@ public class ExOnStudent {
         System.out.println(a + b);
     }
 
+    static void subtract() {
+        int a = 100;
+        int b = 20;
+        System.out.println(a - b);
+    }
+
 }
