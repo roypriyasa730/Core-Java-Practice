@@ -24,4 +24,13 @@ public class ExOnLogical {
         System.out.println("!a: " + (!a)); // false
     }
 
+    public static void testLogicalOperators3() {
+        boolean a = true;
+        boolean b = false;
+
+        System.out.println("a && b: " + (a && b)); // false
+        System.out.println("a || b: " + (a || b)); // true
+        System.out.println("!a: " + (!a)); // false
+    }
+
 }
