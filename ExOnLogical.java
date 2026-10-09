@@ -5,6 +5,15 @@ public class ExOnLogical {
         System.out.println(10 == 10); // true
     }
 
+    static void testLogicalOperators4() {
+        boolean a = true;
+        boolean b = false;
+
+        System.out.println("a && b: " + (a && b)); // false
+        System.out.println("a || b: " + (a || b)); // true
+        System.out.println("!a: " + (!a)); // false
+    }
+
     public static void testLogicalOperators2() {
         boolean a = true;
         boolean b = false;
