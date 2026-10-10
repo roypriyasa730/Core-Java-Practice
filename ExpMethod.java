@@ -15,4 +15,14 @@ public class ExpMethod {
 
     }
 
+    public static void greeting(int age, String name) {
+        System.out.println("hi " + name + " your age is " + age);
+
+    }
+
+    static void greeting(int age) {
+        System.out.println("your age is " + age);
+
+    }
+
 }
