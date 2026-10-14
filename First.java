@@ -7,6 +7,7 @@ class First {
         float f = 5.678f;
         double d = 7.098765;
         char ch = 'T';
+        boolean bool = true;
 
         System.out.println(b);
         System.out.println(s);
