@@ -3,6 +3,8 @@ public class ExpMethod {
         System.out.println("Main Started");
         greeting("priyasa");
         System.out.println("main ended ");
+        greeting(25);
+
     }
 
     public static void greeting(String name) {
