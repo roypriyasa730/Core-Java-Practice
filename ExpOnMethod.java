@@ -13,6 +13,13 @@ public class ExpOnMethod {
 
     }
 
+    public static int m1() {
+        System.out.println("hello");
+        m2();
+        return 4;
+
+    }
+
     public static void m2() {
         System.out.println("hi im m2 method");
         String s = m3();
