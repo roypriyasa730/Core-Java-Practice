@@ -12,6 +12,7 @@ public class Student1 {
         s1.name = "priya";
         s1.id = 123;
         s1.age = 45;
+        s1.toString();
         System.out.println(s1);
         System.out.println(s1.toString());
 
