@@ -4,7 +4,7 @@ public class Student1 {
     int age;
 
     public String toString() {
-        return "name is :" + this.name + ", age is" + this.age + ", id is:" + this.ids;
+        return "name is: " + this.name + ", age is: " + this.age + ", id is: " + this.id;
     }
 
     public static void main(String[] args) {
