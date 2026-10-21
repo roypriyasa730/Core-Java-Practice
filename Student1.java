@@ -4,7 +4,7 @@ public class Student1 {
     int age;
 
     public String toString() {
-        return "name is :" + this.name + ", age is" + this.age + ", id is:" + this.age;
+        return "name is :" + this.name + ", age is" + this.age + ", id is:" + this.ids;
     }
 
     public static void main(String[] args) {
@@ -27,6 +27,7 @@ public class Student1 {
         s2.id = 121;
         s2.age = 46;
         s2.toString();
+
         System.out.println(s2);
         System.out.println(s2.toString());
     }
