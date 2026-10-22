@@ -5,6 +5,7 @@ class Amstrong {
         int num = 153;
         int count = 0, temp = num;
         int sum = 0;
+        int digit = 0;
         // Count the number of digits
         while (temp != 0) {
             count++;
