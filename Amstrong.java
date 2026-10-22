@@ -11,6 +11,7 @@ class Amstrong {
             temp = temp / 10;
         }
 
+        // Reset temp to the original number
         temp = num;
         // Calculate the sum of the digits raised to the power of count
         while (temp != 0) {
@@ -18,6 +19,7 @@ class Amstrong {
             for (int i = 1; i <= count; i++) {
                 fact = fact * (temp % 10);
             }
+            // Add the calculated power to the sum
             sum = sum + fact;
             temp /= 10;
         }
