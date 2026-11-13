@@ -10,6 +10,7 @@ public class ExOnmulti {
                 System.out.println("Caught inside thread: " + e.getMessage());
             }
         }, "Thread-A");
+
         t1.start();
         t1.join();
     }
