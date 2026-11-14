@@ -1,5 +1,5 @@
 public class ExOnmulti {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws InterruptedException {
 
         // 1. try-catch inside run()
         System.out.println("1. try/catch inside the thread");
