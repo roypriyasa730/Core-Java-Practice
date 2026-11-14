@@ -2,7 +2,7 @@ public class ExOnmulti {
     public static void main(String[] args) throws Exception {
 
         // 1. try-catch inside run()
-        System.out.println("--- 1. try/catch inside the thread ---");
+        System.out.println("1. try/catch inside the thread");
 
         Thread t1 = new Thread(() -> {
             try {
