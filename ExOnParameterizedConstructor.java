@@ -7,4 +7,12 @@ public class ExOnParameterizedConstructor {
         this.a = a;
         this.b = b;
     }
+
+    public static void main(String[] args) {
+
+        ExOnParameterizedConstructor obj = new ExOnParameterizedConstructor(10, 20);
+
+        System.out.println(obj.a);
+        System.out.println(obj.b);
+    }
 }
