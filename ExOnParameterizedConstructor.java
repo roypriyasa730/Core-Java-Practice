@@ -8,6 +8,11 @@ public class ExOnParameterizedConstructor {
         this.b = b;
     }
 
+    public void display() {
+        System.out.println("Value of a: " + a);
+        System.out.println("Value of b: " + b);
+    }
+
     public static void main(String[] args) {
 
         ExOnParameterizedConstructor obj = new ExOnParameterizedConstructor(10, 20);
