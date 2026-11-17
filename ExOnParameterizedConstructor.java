@@ -11,6 +11,7 @@ public class ExOnParameterizedConstructor {
     public void display() {
         System.out.println("Value of a: " + a);
         System.out.println("Value of b: " + b);
+        System.out.println("Sum of a and b: " + (a + b));
     }
 
     public static void main(String[] args) {
