@@ -24,4 +24,20 @@ public class ExpOnBook {
         System.out.println("Title: " + title);
         System.out.println("Price: " + price);
     }
+
+    public static void main(String[] args) {
+        ExpOnBook book1 = new ExpOnBook();
+        ExpOnBook book2 = new ExpOnBook();
+        ExpOnBook book3 = new ExpOnBook();
+
+        book1.assignBookDetails("Penguin", "Author One", "Book One", 19.99);
+        book2.assignBookDetails("HarperCollins", "Author Two", "Book Two", 24.99);
+        book3.assignBookDetails("Random House", "Author Three", "Book Three", 29.99);
+
+        // Displaying book details using non-static method calls
+        book1.displayBookDetails();
+        book2.displayBookDetails();
+        book3.displayBookDetails();
+    }
+
 }
