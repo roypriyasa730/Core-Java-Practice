@@ -18,9 +18,9 @@ public class ExpOnMethod {
         System.out.println(m3());
 
     }
-
     public static String m3() {
         System.out.println("hi im m3 method");
         return "java";
     }
+
 }
